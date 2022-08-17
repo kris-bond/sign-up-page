@@ -10,35 +10,59 @@
 </head>
 <body>
     <div id="container">
-        <aside>
-            <img src="img/halie-west-25xggax4bSA-unsplash.jpg" id="img-background">
+        <div id="left">
             <div class="logo-overlay">
                 <img src="img/odin-lined.png" id="img-logo"><p>ODIN</p>
             </div>
-        </aside>
-        <div id="content">
-            <p>This is not a real online service! You know you need something 
-                like this in your life to help you realize your deepest dreams.
-                Sign up <i>now</i> to get started.
-            </p>
-            <p>You know you want to</p>
-            <form>
+        </div>
+        <div id="right">
+            <div class="right-header">
+                <p>This is not a real online service! You know you need something 
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <i>now</i> to get started.
+                </p>
+                <p>You know you want to</p>
+            </div>
+
+            <form action="#">
                 <h3>Let's do this!</h3>
-                <label for="first-name"></label>
-                <input type="text" placeholder="Bob" name="first-name" required>
-                <label for="last-name"></label>
-                <input type="text" placeholder="Smith" name="last-name" required>
-                <label for="email"></label>
-                <input type="email" placeholder="bob@example.com" name="email" required>
-                <label for="phone-number"></label>
-                <input type="number" placeholder="07111111" name="phone-number" required>
-                <label for="password"></label>
-                <input type="password" name="password" required>
-                <label for="confirm-password"></label>
-                <input type="password" name="confirm-password" required>
+                <div class="input">
+                    <label for="first-name">First Name</label>
+                    <input type="text" placeholder="Bob" name="first-name" required>
+                </div>
+
+                <div class="input">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" placeholder="Smith" name="last-name" required>
+                </div>
+
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="bob@example.com" name="email" required>
+                </div>
+
+                <div class="input">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="number" placeholder="07111111" name="phone-number" required>
+                </div>
+
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" required>
+                </div>
+
+                <div class="input">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" required>
+                </div>
+
+
                 <button type="submit">Create Account</button>
             </form>
-            <p>Already have an account? <a href="#">Log in</a></p>
+
+            <div class="right-footer">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </div>
     </div>
 </body>
