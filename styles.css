@@ -10,7 +10,7 @@
     flex-direction: row;
     width: 100vw;
     height: 100vh;
-    gap: 2vw;
+    gap: 5vw;
 }
 
 /* Left side */
@@ -54,6 +54,10 @@
     gap: 10vh;
 }
 
+p + p {
+    margin-top: 1rem;
+}
+
 form {
     display: flex;
     flex-flow: row wrap;
@@ -76,6 +80,13 @@ form input {
 
 form button {
     width: 200px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 32px;
 }
 
 .input {
