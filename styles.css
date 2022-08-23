@@ -48,10 +48,13 @@
 #right {
     display: flex;
     width: 55vw;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 10vh;
+}
+
+.right-header {
+    width: max(42vw, 340px);
 }
 
 p + p {
