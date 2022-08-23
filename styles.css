@@ -10,7 +10,7 @@
     flex-direction: row;
     width: 100vw;
     height: 100vh;
-    gap: 5vw;
+    /* gap: 5vw; */
 }
 
 /* Left side */
@@ -47,14 +47,16 @@
 
 #right {
     display: flex;
-    width: 55vw;
+    width: 60vw;
     justify-content: center;
     flex-direction: column;
-    gap: 10vh;
+    /* margin-left: 5vw; */
+    background-color: whitesmoke;
 }
 
 .right-header {
     width: max(42vw, 340px);
+    margin-left: 5vw;
 }
 
 p + p {
@@ -67,6 +69,9 @@ form {
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: white;
+    margin-top: 4rem;
+    padding-left: 5vw;
 }
 
 form h3 {
@@ -81,7 +86,7 @@ form input {
     width: max(20vw, 150px);
 }
 
-form button {
+#submit-btn {
     width: 200px;
     background-color: #596D48;
     color: white;
@@ -90,6 +95,13 @@ form button {
     text-decoration: none;
     font-size: 16px;
     padding: 15px 32px;
+    margin-top: 2rem;
+    margin-left: 5vw;
+}
+
+.right-footer {
+    margin-top: 2rem;
+    margin-left: 5vw;
 }
 
 .input {
