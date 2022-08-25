@@ -11,8 +11,6 @@ submit.addEventListener("click", e => {
         password.classList.add('error');
         passwordConfirm.classList.add('error');
         errorMsg.style.display = 'block';
-    } else {
-        errorMsg.style.display = 'none';
     }
 
 });
