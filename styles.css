@@ -43,6 +43,17 @@
     margin-top: 100px;
 }
 
+.photo-credit {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+
+.photo-credit a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Right side */
 
 #right {
